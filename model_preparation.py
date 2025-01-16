@@ -14,4 +14,4 @@ model = RandomForestRegressor(random_state=42)
 model.fit(X_train, y_train)
 
 # Сохранение модели
-joblib.dump(model, 'trained_model.pkl')
+joblib.dump(model, 'models/trained_model.pkl')
